@@ -1,0 +1,75 @@
+.team-card {
+  background-color: #111;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4); /* Soft golden glow */
+}
+
+.team-card.winner {
+  border: 2px solid gold;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+}
+
+.team-card.runnerup {
+  border: 2px solid silver;
+  box-shadow: 0 0 12px rgba(192, 192, 192, 0.3);
+}
+
+.team-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.team-name {
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.team-goals {
+  color: #ccc;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: nowrap; /* change from wrap to nowrap */
+  padding: 1rem;
+}
+
+.team-of-season {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.section-title {
+  color: #FFD700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.season-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 1.5rem auto;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.season-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4); /* Soft golden glow */
+}

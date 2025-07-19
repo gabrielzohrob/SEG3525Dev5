@@ -1,0 +1,48 @@
+{
+  "title": "Gains des équipes – Ligue des Champions 2024/25",
+  "nav": {
+    "keyStats": "Statistiques Clés",
+    "teamEarnings": "Gains des Équipes",
+    "goals": "Buts"
+  },
+  "keyStats": {
+    "title": "Statistiques Clés – 2024/25",
+    "player": "Joueur",
+    "team": "Équipe",
+    "minutes": "Minutes",
+    "matches": "Matchs",
+    "goals": "Buts",
+    "assists": "Passes décisives",
+    "distance": "Distance (km)",
+    "statsFor": "Statistiques pour"
+  },
+  "goalsPage": {
+    "title": "Meilleurs buteurs – 2024/25",
+    "player": "Joueur",
+    "team": "Équipe",
+    "goals": "Buts",
+    "rightFoot": "Pied droit",
+    "leftFoot": "Pied gauche",
+    "head": "Tête",
+    "other": "Autre",
+    "insideArea": "Dans la surface",
+    "outsideArea": "Hors de la surface",
+    "penalties": "Penalties",
+    "matches": "Matchs"
+  },
+  "teamEarningsPage": {
+    "title": "Gains des Équipes – Ligue des Champions 2024/25",
+    "tooltipLabel": "{{team}} : {{earnings}}M $",
+    "yAxisLabel": "{{val}}M $"
+  },
+  "dashboard": {
+  "title": "Vue des Champions – {{season}}",
+  "winner": "🏆 Gagnant",
+  "runnerUp": "🥈 Finaliste",
+  "teamGoals": "Buts de l'équipe : {{goals}}",
+  "teamOfSeason": "🌟 Équipe de la saison"
+}
+
+
+
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Team Earnings – Champions League 2024/25",
+  "nav": {
+    "keyStats": "Key Stats",
+    "teamEarnings": "Team Earnings",
+    "goals": "Goals"
+  },
+  "keyStats": {
+    "title": "Key Stats – 2024/25",
+    "player": "Player",
+    "team": "Team",
+    "minutes": "Minutes",
+    "matches": "Matches",
+    "goals": "Goals",
+    "assists": "Assists",
+    "distance": "Distance (km)",
+    "statsFor": "Stats for"
+  },
+  "goalsPage": {
+    "title": "Top Goalscorers – 2024/25",
+    "player": "Player",
+    "team": "Team",
+    "goals": "Goals",
+    "rightFoot": "Right Foot",
+    "leftFoot": "Left Foot",
+    "head": "Head",
+    "other": "Other",
+    "insideArea": "Inside Area",
+    "outsideArea": "Outside Area",
+    "penalties": "Penalties",
+    "matches": "Matches"
+  },
+  "teamEarningsPage": {
+    "title": "Team Earnings – Champions League 2024/25",
+    "tooltipLabel": "{{team}}: ${{earnings}}M",
+    "yAxisLabel": "${{val}}M"
+  },
+  "dashboard": {
+  "title": "Champions View – {{season}}",
+  "winner": "🏆 Winner",
+  "runnerUp": "🥈 Runner-Up",
+  "teamGoals": "Team Goals: {{goals}}",
+  "teamOfSeason": "🌟 Team of the Season"
+}
+
+}

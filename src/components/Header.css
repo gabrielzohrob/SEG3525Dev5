@@ -1,0 +1,98 @@
+/* Header layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0A0F2C 60%, #1B1F3B);
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #2E3A59;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.05);
+  animation: fadeSlideIn 0.7s ease-out;
+}
+
+/* Logo Area */
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #FFD700;
+}
+
+/* Logo Image */
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Logo Text (Champions View) */
+.logo-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #FFD700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: inline-block;
+}
+
+/* Navigation Wrapper */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Navigation Links */
+.main-nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+  color: #FFD700;
+}
+
+/* Language Toggle Button */
+.lang-toggle {
+  background-color: #FFD700;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #1c1c1c;
+  transition: background-color 0.3s ease;
+}
+
+.lang-toggle:hover {
+  background-color: #e6c200;
+}
+
+/* Fade Animation */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,45 @@
+.key-stats-container {
+  padding: 2rem;
+  background: #0a1033;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.key-stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1c1f3f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.key-stats-table th, .key-stats-table td {
+  padding: 0.8rem;
+  text-align: center;
+  border-bottom: 1px solid #2d3163;
+}
+
+.key-stats-table th {
+  background-color: #131b45;
+  color: #b0c4ff;
+}
+
+.key-stats-table tbody tr:hover {
+  background-color: #2a2e61;
+}
+
+.player-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 1.2;
+  height: 40px; /* fixed height for better row alignment */
+}
+
+.player-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}

@@ -1,0 +1,91 @@
+/* ====== GLOBAL ROOT STYLES ====== */
+:root {
+  --primary-bg: linear-gradient(90deg, #0033a0, #050C3B);
+  --secondary-bg: #1B1F3B;
+  --highlight-color: #FFD700;
+  --hover-scale: 1.02;
+  --text-light: #E0E0E0;
+  --text-muted: #B0B0B0;
+  --select-bg: #2E3A59;
+  --font-title: 'Orbitron', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* ====== BASE RESET ====== */
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: #0A0F2C;
+  color: var(--text-light);
+}
+
+/* ====== LINKS ====== */
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* ====== APP CONTAINER ====== */
+.app {
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+/* ====== HEADERS ====== */
+h1, h2, h3 {
+  font-family: var(--font-title);
+  color: var(--highlight-color);
+  text-align: center;
+  margin-top: 0;
+}
+
+/* ====== LAYOUT WRAPPER ====== */
+.app-layout {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* ====== MAIN CONTENT AREA ====== */
+.main-content {
+  background-color: var(--secondary-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.main-content:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+}
+
+/* ====== SELECT ELEMENTS ====== */
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--select-bg);
+  color: var(--text-light);
+  font-family: inherit;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+  .app-layout {
+    padding: 1rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}
