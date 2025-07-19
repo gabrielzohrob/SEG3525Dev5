@@ -5,9 +5,9 @@ import Header from './components/Header.jsx';
 import KeyStatsPage from './pages/KeyStatsPage';
 import TeamEarningsPage from './pages/TeamEarningsPage';
 import GoalsPage from './pages/GoalsPage';
-import winnerLogo from './assets/logo/psg.png';
-import runnerUpLogo from './assets/logo/IntM.png';
-import totsImage from './assets/logo/tots.png';
+import winnerLogo from '/src/assets/home/psg.png';
+import runnerUpLogo from '/src/assets/home/IntM.png';
+import totsImage from './assets/home/tots.png';
 import './TeamCard.css';
 
 import { useTranslation } from 'react-i18next';

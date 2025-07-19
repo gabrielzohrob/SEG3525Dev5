@@ -3,6 +3,9 @@ import './Header.css';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+// ✅ Add this import:
+import logoImg from '../assets/home/logo.png';
+
 function Header() {
   const { i18n, t } = useTranslation();
 
@@ -15,7 +18,7 @@ function Header() {
     <header className="header">
       {/* Logo + Title */}
       <NavLink to="/" className="logo-area">
-        <img src="/images/logo.png" alt="Logo" className="logo" />
+        <img src={logoImg} alt="Logo" className="logo" />
         <h1 className="logo-text">Champions View</h1>
       </NavLink>
 
@@ -29,7 +32,7 @@ function Header() {
             {t('nav.goals')}
           </NavLink>
           <NavLink to="/team-earnings" className="nav-link">
-            {t('nav.teamEarnings')}
+            {t('teamEarnings')}
           </NavLink>
         </nav>
 
